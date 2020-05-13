@@ -43,6 +43,6 @@ p stops[-5..2].last()
 p stops.take(3).last()
 p stops.drop(2).first()
 
-
 #9. Reverse the positions of the stops in the array
+p stops.reverse()
 #10 Print out all the stops using a for loop
