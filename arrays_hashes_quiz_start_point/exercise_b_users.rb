@@ -83,6 +83,8 @@ p even_numbers
 p lottery_numbers.select{ |number| number % 2 == 0 }
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+users["Erik"][:lottery_numbers].push(7)
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
