@@ -45,4 +45,6 @@ p stops.drop(2).first()
 
 #9. Reverse the positions of the stops in the array
 p stops.reverse()
+
 #10 Print out all the stops using a for loop
+stops.each {|stop| p stop}
