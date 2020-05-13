@@ -14,6 +14,8 @@ index_of_linlithgow = stops.index("Linlithgow")
 p "The index position of Linlithgow is #{index_of_linlithgow}"   
 
 #5. Remove "Livingston" from the array using its name
+stops.delete("Livingston")
+
 #6. Delete "Cumbernauld" from the array by index
 #7. Print the number of stops there are in the array?
 #8. Show as many ways as you can to return "Falkirk High" from the array?
