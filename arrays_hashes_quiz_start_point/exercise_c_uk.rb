@@ -30,3 +30,11 @@ united_kingdom.push({
 united_kingdom.each{ |country| p country[:name]}
 
 # 4. Use a loop to find the total population of the UK.
+total_population = 0
+
+united_kingdom.each{ |country| total_population += country[:population]}
+p total_population
+
+# or we can use map
+
+p united_kingdom.map{ |country| country[:population]}.sum
